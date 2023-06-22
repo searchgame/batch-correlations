@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 """
-# Google Analytics correlations 
+# 📈 Google Analytics correlations 
 
-Quickly get an overview of correlations between pairs of Google Analytics metrics.
+Quickly get an overview of correlations between multiple pairs of Google Analytics metrics.
 
 This actually works with any type of data, not only Google Analytics metrics, but the script is made so that you can directly upload a raw .csv export from Google Analytics without having to clean the file first (mainly removing the header summary).
 
-
+See the code and how to interpret the charts [on the Github repo](https://github.com/searchgame/ga-correlations/).
 """
 
 # Set a title
