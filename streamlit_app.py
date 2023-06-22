@@ -3,6 +3,12 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+"""
+# Google Analytics correlations 
+
+Quickly get an overview of correlations between pairs of Google Analytics metrics.
+"""
+
 # Set a title
 st.title('Google Analytics Correlation App')
 
