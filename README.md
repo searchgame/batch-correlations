@@ -1,1 +1,1 @@
-# ga-correlations
+# Google Analytics correlations
