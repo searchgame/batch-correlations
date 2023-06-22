@@ -7,7 +7,7 @@ import numpy as np
 """
 # 📈 Google Analytics correlations 
 
-Quickly uncover relationships by getting an overview of correlation coefficients between multiple pairs of Google Analytics metrics.
+Quickly uncover relationships in your Google Analytics data by getting an overview of correlation coefficients between multiple pairs of GA metrics.
 
 See the code and how to interpret the charts [on the Github repo](https://github.com/searchgame/ga-correlations/).
 
