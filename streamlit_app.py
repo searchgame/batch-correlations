@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 
 """
 # Google Analytics correlations 
@@ -10,7 +11,7 @@ Quickly get an overview of correlations between pairs of Google Analytics metric
 """
 
 # Set a title
-st.title('Google Analytics Correlation App')
+st.title('Correlation App')
 
 # Set a sidebar for user input
 st.sidebar.title("Settings")
@@ -41,9 +42,17 @@ if file_upload is not None:
     # Convert data to numeric
     data = data.apply(pd.to_numeric, errors='coerce')
 
-    # Plotting correlation heatmap and saving as a PDF file
-    fig, ax = plt.subplots(figsize=(10, 10))
-    sns.heatmap(data.corr(), annot=True, fmt=".2f", cmap='coolwarm', ax=ax)
+    # Compute correlation matrix
+    corr = data.corr()
+
+    # Generate a mask for the upper triangle
+    mask = np.triu(np.ones_like(corr, dtype=bool))
+
+    # Set up the matplotlib figure
+    fig, ax = plt.subplots(figsize=(11, 9))
+
+    # Draw the heatmap with the mask
+    sns.heatmap(corr, mask=mask, annot=True, fmt=".2f", cmap='coolwarm', ax=ax)
     plt.title('Correlation of your data')
 
     # Show the plot in Streamlit
