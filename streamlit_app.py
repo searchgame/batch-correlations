@@ -9,7 +9,7 @@ import numpy as np
 
 Quickly uncover potential relationships in a dataset by getting an overview of correlation coefficients between multiple pairs of metrics.
 
-See the code and how to interpret the charts [on the Github repo](https://github.com/searchgame/ga-correlations/).
+See the code and how to interpret the charts [on the Github repo](https://github.com/searchgame/ga-correlations/)
 
 Made by [Victor Gras](https://victorgras.com)
 """
