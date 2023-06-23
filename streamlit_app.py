@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 """
-# Plot correlations 
+# Batch correlations 
 
 Quickly uncover potential relationships in your data by getting an overview of correlation coefficients between multiple pairs of metrics.
 
