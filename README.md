@@ -2,7 +2,7 @@
 
 A simple python app to quickly uncover potential relationships in a dataset by getting an overview of correlation coefficients between multiple pairs of metrics. Made with Streamlit.
 
-[https://batch-correlations.streamlit.app/](https://batch-correlations.streamlit.app/)
+[https://batch-correlations.streamlit.app/](https://batch-correlations.streamlit.app/)  
 
 __Usage:__
 
