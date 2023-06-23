@@ -48,7 +48,7 @@ if file_upload is not None:
     fig, ax = plt.subplots(figsize=(11, 9))
 
     # Draw the heatmap with the mask
-    sns.heatmap(corr, mask=mask, annot=True, fmt=".2f", cmap='coolwarm', ax=ax)
+    sns.heatmap(corr, mask=mask, annot=True, fmt=".2f", cmap='coolwarm', vmin=-1, vmax=1, ax=ax)
     plt.title('Correlation of your data')
 
     # Show the plot in Streamlit
