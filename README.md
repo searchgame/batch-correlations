@@ -4,7 +4,7 @@ A simple python app to quickly uncover potential relationships in a dataset by g
 
 [https://batch-correlations.streamlit.app/](https://batch-correlations.streamlit.app/)  
 
-__Usage:__
+## Usage:
 
 1) Uploade a CSV file from the left sidebar. The format expected is: 
 ```
@@ -22,4 +22,6 @@ https://www.example.com/article-3/,1780,20,21,11,0.27,52,2704,3881.909,9030,7943
 2) The chart automatically appears under "Results:"
 
 
-__How to read the chart:__
+## How to read the chart:
+
+![alt text](https://github.com/searchgame/batch-correlations/blob/main/example-batch-correlations.png?raw=true)
