@@ -25,3 +25,5 @@ https://www.example.com/article-3/,1780,20,21,11,0.27,52,2704,3881.909,9030,7943
 ## How to read the chart:
 
 ![alt text](https://github.com/searchgame/batch-correlations/blob/main/example-batch-correlations.png?raw=true)
+
+Coming soon!
