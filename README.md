@@ -1,4 +1,4 @@
-# Batch correlations
+# 💡 Batch correlations
 
 A simple python app to quickly uncover potential relationships in a dataset by getting an overview of correlation coefficients between multiple pairs of metrics. Made with Streamlit.
 
