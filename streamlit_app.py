@@ -12,7 +12,6 @@ Quickly uncover potential relationships in a dataset by getting an overview of c
 See the code and how to interpret the chart [on the Github repo](https://github.com/searchgame/ga-correlations/).
 
 ---
-
 ## Usage:
 
 1) Uploade a CSV file from the left sidebar. The format expected is: 
