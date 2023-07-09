@@ -7,7 +7,7 @@ import numpy as np
 """
 # 💡 Batch correlations 
 
-Quickly uncover potential relationships in a dataset by getting an overview of correlation coefficients between multiple pairs of metrics.
+Quickly uncover potential relationships in a dataset by getting an overview of correlation coefficients between several pairs of metrics.
 
 See the code and how to interpret the chart [on the Github repo](https://github.com/searchgame/ga-correlations/). Made by [Victor Gras](https://victorgras.com).
 
