@@ -1,6 +1,6 @@
 # 💡 Batch correlations
 
-A simple python app to quickly uncover potential relationships in a CSV dataset by getting an overview of correlation coefficients between several pairs of metrics. Made with Streamlit.
+A simple python app to quickly uncover potential relationships in a CSV dataset by getting an overview of correlation coefficients between several pairs of metrics. Made with [https://streamlit.io/](Streamlit).
 
 [https://batch-correlations.streamlit.app/](https://batch-correlations.streamlit.app/)  
 
